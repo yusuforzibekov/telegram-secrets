@@ -1,42 +1,25 @@
-# Telegram Secrets
+# telegram-secrets
+To change the incoming message or call sound in Telegram Desktop, follow these steps:
 
-This project requires the following Telegram secrets to be set:
+1. Download the desired sound and save it in a folder, for example, C:\Music\MySound.mp3.
 
-- `sounds_reset`: This secret is used to reset the notification sounds for incoming calls and messages. To set this secret, follow these steps:
-    1. Open Telegram and go to "Settings".
-    2. Select "Notifications and Sounds".
-    3. Scroll down to the bottom and select "Reset Notification Settings".
-    4. A code will appear on the screen. Copy this code and set it as the value for the `sounds_reset` secret.
+2. Open Telegram Desktop and make sure you are using the English layout.
 
-    ![Reset Notification Settings](images/reset_notification_settings.png)
+3. Open Settings.
 
-- `call_incoming`: This secret is used to configure the notification sound for incoming calls. To set this secret, follow these steps:
-1. Open Telegram and go to "Settings".
-    2. Select "Notifications and Sounds".
-    3. Select "Incoming Calls".
-    4. Choose the sound you want to use.
-    5. A code will appear on the screen. Copy this code and set it as the value for the `call_incoming` secret.
+4. Type "`msg_incoming`" on your keyboard for changing the incoming message sound or "`call_incoming`" for changing the incoming call sound. You won't see this text anywhere, but keep typing as if it is a cheat code in a game. Don't forget the underscore.
 
-    ![Incoming Calls](images/incoming_calls.png)
+    ![Telegram Desktop Settings](https://www.filecroco.com/wp-content/uploads/2019/02/telegram-desktop-3-1024x768.jpg)
 
-- `msg_incoming`: This secret is used to configure the notification sound for incoming messages. To set this secret, follow these steps:
-    1. Open Telegram and go to "Settings".
-    2. Select "Notifications and Sounds".
-    3. Select "Messages".
-    4. Choose the sound you want to use.
-    5. A code will appear on the screen. Copy this code and set it as the value for the `msg_incoming` secret.
+5. If you typed "`msg_incoming`" correctly, a dialog window will appear, asking you to open an mp3 file. If you typed "`call_incoming`" correctly, the app will play the current incoming call sound.
 
-    ![Messages](images/messages.png)
+    ![Telegram Desktop Sound Selection](https://multimedia.easeus.com/images/multimedia/audio-toolkit/screenshots/add-files.png)
 
-To set these secrets in your GitHub repository, follow these steps:
+6. Navigate to the folder where you saved the sound (C:\Music) and double-click on MySound.mp3.
 
-1. Go to your repository on GitHub and click on "Settings".
-2. Select "Secrets" from the left-hand menu.
-3. Click on "New repository secret".
-4. Enter the name of the secret (e.g. `sounds_reset`) and the value (e.g. the code you copied from Telegram).
-5. Click on "Add secret".
+7. If you're changing the incoming message sound, close Telegram Desktop completely (Ctrl+Q by default) and open it again. If you're changing the incoming call sound, the new sound will be applied immediately.
 
-Repeat these steps for each of the three secrets (`sounds_reset`, `call_incoming`, and `msg_incoming`). Once you have set these secrets, your Telegram notifications should work correctly in your project.
+8. Done! The incoming message/call sound has been changed. If you want to revert back to the original sounds, type "`sounds_reset`" command in Settings and restart the app.
 
-[![Open Telegram](https://img.shields.io/badge/Open-Telegram-blue?logo=telegram)](https://telegram.org/)
-[![GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github)](https://github.com/)
+    [![GitHub Button](https://i.imgur.com/2Z6K9vR.png)](https://github.com/)
+    [![Telegram Button](https://i.imgur.com/2Z6K9vR.png)](https://telegram.org/)
