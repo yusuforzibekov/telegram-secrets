@@ -11,7 +11,7 @@ This project requires the following Telegram secrets to be set:
     ![Reset Notification Settings](images/reset_notification_settings.png)
 
 - `call_incoming`: This secret is used to configure the notification sound for incoming calls. To set this secret, follow these steps:
-    1. Open Telegram and go to "Settings".
+1. Open Telegram and go to "Settings".
     2. Select "Notifications and Sounds".
     3. Select "Incoming Calls".
     4. Choose the sound you want to use.
