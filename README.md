@@ -21,5 +21,6 @@ To change the incoming message or call sound in Telegram Desktop, follow these s
 
 8. Done! The incoming message/call sound has been changed. If you want to revert back to the original sounds, type "`sounds_reset`" command in Settings and restart the app.
 
-    [![GitHub Button](https://i.imgur.com/2Z6K9vR.png)](https://github.com/)
-    [![Telegram Button](https://i.imgur.com/2Z6K9vR.png)](https://telegram.org/)
+
+    [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/)
+    [![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat-square&logo=telegram)](https://telegram.org/)
